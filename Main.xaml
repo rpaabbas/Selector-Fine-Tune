@@ -67,13 +67,13 @@
           <av:Size x:Key="ShapeSize">200,93</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" sap2010:Annotation.AnnotationText="Replace the charactors in notepad" DisplayName="Attach Window  and Notepad" sap:VirtualizedContainerService.HintSize="200,93" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="3161830ba94d4c99d146a5adfedeacdf" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='*Untitled - Notepad' /&gt;">
+      <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" sap2010:Annotation.AnnotationText="Replace the charactors in notepad" DisplayName="Attach Window  and Notepad" sap:VirtualizedContainerService.HintSize="434,1171" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="3161830ba94d4c99d146a5adfedeacdf" Selector="&lt;wnd app='notepad.exe' cls='Notepad' title='*Untitled - Notepad' /&gt;">
         <ui:WindowScope.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="376,994" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence DisplayName="Do  Actvity" sap:VirtualizedContainerService.HintSize="376,994" sap2010:WorkflowViewState.IdRef="Sequence_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -194,7 +194,7 @@
           <av:Size x:Key="ShapeSize">200,66</av:Size>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <Sequence sap:VirtualizedContainerService.HintSize="476,980" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <Sequence sap:VirtualizedContainerService.HintSize="200,66" sap2010:WorkflowViewState.IdRef="Sequence_4">
         <Sequence.Variables>
           <Variable x:TypeArguments="sd:DataTable" Name="Dt1" />
           <Variable x:TypeArguments="x:String" Name="var1" />
